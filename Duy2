@@ -78,14 +78,3 @@ game:GetService("Players").PlayerRemoving:Connect(function(Player)
              }) 
 end)
 end
-local add = Instance.new("Part") 
-add.Parent = workspace
-add.Name = "Testh"
-if game.PlaceId==4587545091 then
-print("First Sea")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DuyM7/Viet-Nam-Piece1/main/KhanhNgoc"))()
-elseif
-game.PlaceId==7258239416 then
-print("Second Sea")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DuyM7/Viet-Nam-Piece1/main/duy"))()
-end
